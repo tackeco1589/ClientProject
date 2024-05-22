@@ -106,7 +106,7 @@ footer img {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    margin: 10px 5in;
+    margin: 10px 5in;/*This 5in is causing issues. try auto instead*/
 }
 
 .our-story-text p{
@@ -118,7 +118,7 @@ footer img {
     border-radius: 10px;
     color: white;
     text-align: center;
-    margin: 0 5in; /* About an inch margin on top and bottom, auto on sides for centering */
+    margin: 0 5in; /* Change to 0 auto the 5in is causing issues on small screen sizes. */
 }
 
 .contact-us-box h3 {
@@ -228,7 +228,7 @@ footer img {
     border-radius: 10px;
     color: white;
     text-align: center;
-    margin: 0 5in;
+    margin: 0 5in;/*Auto instead of 5in*/
 }
 
 .schedule-box h2 {
